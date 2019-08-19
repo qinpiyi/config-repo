@@ -14,6 +14,12 @@ spring:
     username: guest
     password: guest
     connection-timeout: 15000
+  cloud:
+    stream:
+      bindings:
+        myMessage:
+          group: order
+          content-type: application/json
 
 mybatis:
   type-aliases-package: com.dmcq.order.domain.entity
@@ -25,10 +31,10 @@ mybatis:
 server:
   port: 8103
 
-# logging:
-#   path: log
-#   file: order.log
-#   level: info
+ logging:
+   path: log
+   file: order.log
+   level: info
 
 env:
   dev
