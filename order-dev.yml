@@ -31,10 +31,10 @@ mybatis:
 server:
   port: 8103
 
- logging:
-   path: log
-   file: order.log
-   level: info
+logging:
+ path: log
+ file: order.log
+ level: info
 
 env:
   dev
