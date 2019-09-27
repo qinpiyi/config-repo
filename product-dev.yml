@@ -31,10 +31,10 @@ mybatis:
   not-empty: false
   identity: MYSQL
 
-logging:
-  path: log
-  file: product.log
-  level: info
+# logging:
+#   path: log
+#   file: product.log
+#   level: info
 
 env:
   dev
