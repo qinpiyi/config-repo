@@ -31,8 +31,8 @@ mybatis:
   not-empty: false
   identity: MYSQL
 
-server:
-  port: 8103
+# server:
+#   port: 8103
 
 # logging:
 #  path: log
