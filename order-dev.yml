@@ -39,6 +39,9 @@ mybatis:
 #  file: order.log
 #  level: info
 
+swagger:
+  enable: true
+
 env:
   dev
 
