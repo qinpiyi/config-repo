@@ -36,5 +36,8 @@ mybatis:
 #   file: product.log
 #   level: info
 
+swagger:
+  enable: true
+
 env:
   dev
