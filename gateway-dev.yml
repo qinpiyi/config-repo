@@ -5,6 +5,7 @@ zuul:
     myProduct:
       path: /dmcq-product/**
       serviceId: product
+      sensitiveHeaders:
 #    方式二（以服务名为key）
     order: /dmcq-orde/**
 #    排除某些路由（拒绝访问）
