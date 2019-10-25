@@ -9,7 +9,7 @@ spring:
   jpa:
     show-sql: true
   redis:
-    host: localhost
+    host: 106.13.117.203
     port: 6379
   rabbitmq:
     host: 106.13.117.203
